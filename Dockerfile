@@ -1,5 +1,5 @@
 FROM alpine
 copy ["cow", "/bin/cow"]
 copy ["rc", "/root/.cow/rc"]
-EXPOSE 80
+EXPOSE 7777
 CMD ["cow"]
