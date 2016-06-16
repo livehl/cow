@@ -1,1 +1,1 @@
-listen = cow://${cowuser}:${cowpwd}@0.0.0.0:7777
+listen = cow://aes-128-cfb:${COWPWD}@0.0.0.0:7777
