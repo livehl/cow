@@ -7,5 +7,5 @@ run ["chmod", "+x","/bin/cow"]
 run ["chmod", "+x","/bin/kcp"]
 run ["chmod", "+x","/root/start.sh"]
 RUN apk add --no-cache  gettext bash
-EXPOSE 90
+EXPOSE 90,80
 CMD ["/bin/bash","-c", "envsubst < /root/.cow/rc.temp > /root/.cow/rc && /root/start.sh"]
